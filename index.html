@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Radha Gunturu Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+ </head>
+<body>
+<header>
+        <nav class="navbar navbar-expand-lg container-fluid navbar-dark bg-dark fixed-top d-flex">
+            <a href="#home" class="navbar-brand">
+			<p>Counselling Service Therapists</p>
+            </a>
+            <div class="collapse navbar-collapse" id="nav-bar-links">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-links"
+                aria-controls="nav-bar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+	<main>
+        <section id="home" class="hero m-5 p-5">
+            <div class="container-lg">
+                <div class="row justify-content-center align-item-center align-content-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h2>
+							 <div class="display-2 text-muted">Providing Counselling Services for all Ages</div>
+                        </h2>
+                    </div>
+                    <!-- small screens dont display the image and mid sized devices display as a block -->
+                    <div class="col-md-5 text-center d-none d-md-block">
+                        <img src="assets/3dpainting.jpg" alt="3dpainting" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="services" class="services bg-light border p-5">
+            <div class="container-lg">
+                <div class="text-center">
+                    <h2>Services</h2>
+                    <p class="lead text-muted">Providing Counselling Services for all Ages</p>
+                </div>
+                <div
+                    class="row my-5 justify-content-center align-content-center align-item-center align-content-center">
+                    <div class="col-10 col-lg-4 col-xl-3">
+                        <div class="card border-1">
+                            <div class="card-body text-center py-4">
+                                <h4 class="card-title">Kids</h4>
+                                <p class="lead card-subtitle">ages 5 to 10</p>
+                                <img src="assets/child.jpg" class="img-fluid" alt="child">
+                                <a href="https://www.therapistaid.com/therapy-worksheets/none/children" class="btn btn-outline-secondary btn-lg mt-3">Resources</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-lg-4 col-xl-3">
+                        <div class="card border-1">
+                            <div class="card-body text-center py-4">
+                                <h4 class="card-title">Youth</h4>
+                                <p class="lead card-subtitle">ages 11 to 21</p>
+                                <img src="assets/youth.jpg" class="img-fluid" alt="youth">
+                                <a href="https://www.yourtherapysource.com/blog1/2022/11/11/therapy-activities-for-teens-2/" class="btn btn-outline-secondary btn-lg mt-3">Resources</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-lg-4 col-xl-3 mw-100">
+                        <div class="card border-1">
+                            <div class="card-body text-center py-4">
+                                <h4 class="card-title">Adults</h4>
+                                <p class="lead card-subtitle">ages 21 and above</p>
+                                <img src="assets/adults.jpg" class="img-fluid" alt="adult">
+                                <a href="https://positivepsychology.com/group-therapy-activities/" class="btn btn-outline-secondary btn-lg mt-3">Resources</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		
+        <!-- About section contains a row of an accordion and image -->
+        <section id="about" class="about p-5">
+            <div class="container-md">
+                <div class="text-center">
+                    <h2>About</h2>
+                    <p class="leadltext-muted">Therapists</p>
+                </div>
+
+                <!-- row -->
+                <div class="row my-5 g-5 justify-content-around align-items-center">
+                    <!-- image -->
+                    <div class="col-6 col-lg-4">
+                        <img src="assets/team.jpg" alt="the-team" class="img-fluid">
+                    </div>
+
+                    <!-- accordion with 3 chapters, individual header and buttons -->
+                    <div class="col-lg-6">
+                        <div class="accordion" id="chapters">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                        Vision statement
+                                    </button>
+                                </h2>
+                                <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>Therapy can help you to: feel stronger in the face of challenges. 
+										change behaviors that hold you back. look at ways of thinking that affect how you feel.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-2">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-2" aria-expanded="true" aria-controls="chapter-2">
+                                        The Team
+                                    </button>
+                                </h2>
+                                <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                    data-bs-parent="#chapters">
+                                    <div class="accordion-body">
+                                        <p>We are a team of psychologists, psychotherapists, and counsellors </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</main>
+    <!-- footer contains contact information -->
+    <footer class="container-fluid bg-secondary p-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 py-5 my-5 border-top">
+            <div class="col mb-3 d-flex flex-column align-items-center">
+                <a href="#home" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <span class="fw-bolder">Mental Health resources</span>
+                </a>
+                <ul class="nav col-md-3 justify-content-start list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="https://mhanational.org/crisisresources" target="_blank"><i
+                                class="bi bi-twitter-x"></i></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://mhanational.org/get-information" target="_blank"><i
+                                class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://mhanational.org/research-reports" target="_blank"><i
+                                class="bi bi-facebook"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3 d-flex flex-column align-items-center">
+                <h6>Contact</h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="https://maps.app.goo.gl/7EdT2MV1UfWFAK7X7"
+                            class="nav-link p-0 text-body-secondary" target="_blank"><i class="bi bi-map"></i>
+                            <address>Sedona St,<br>little Town, OH 34567</address>
+                        </a></li>
+                    <li class="nav-item mb-2"><a href="tel:18002908711" class="nav-link p-0 text-body-secondary"
+                            target="_blank"><i class="bi bi-telephone"></i> +1 (xxx) xxx-xxxx</a></li>
+                    <li class="nav-item mb-2"><a href="mailto:test@libertymutual.com"
+                            class="nav-link p-0 text-body-secondary" target="_blank"><i class="bi bi-envelope"></i>
+                            therapists@email.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
